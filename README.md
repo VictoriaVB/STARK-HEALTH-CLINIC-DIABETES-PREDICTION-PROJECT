@@ -15,7 +15,7 @@ Method
 As a Data Scientist leading this initiative, the project involves:
 
 Data Collection & Preprocessing: Aggregating patient data, including demographics, medical history, lifestyle factors, and laboratory results, ensuring data quality and compliance.
-
+•	Dataset Loading: I loaded a diabetes prediction dataset using pandas.read_csv.
 Feature Engineering: Identifying and selecting the most relevant predictors for diabetes risk.
 
 Model Development: Implementing machine learning algorithms such as Decision Trees, Random Forest, Gradient Boosting, and Neural Networks to develop an accurate predictive model.
@@ -44,7 +44,6 @@ This initiative represents a significant step toward transforming diabetes manag
 
 ### Findings of the Process 
  1. Dataset Exploration and Cleaning
-•	Dataset Loading: I loaded a diabetes prediction dataset using pandas.read_csv.
 •	Initial Data Review: Using head(), tail(), and sample(), you explored the structure of the data and observed that there are 10 columns with various features (e.g., gender, age, bmi, HbA1c_level, etc.).
 •	Missing Values: No missing values were identified using isnull().sum(). A heatmap of missing values confirmed the data is complete.
 •	Outlier Detection: Boxplots of features like blood_glucose_level, bmi, age, and HbA1c_level revealed significant outliers in bmi and blood_glucose_level. These outliers suggest some extreme cases, possibly indicating high-risk patients.
@@ -58,7 +57,7 @@ This initiative represents a significant step toward transforming diabetes manag
 •	Age and BMI Groups: Age is grouped into categories, with the highest count in the elderly (65 and above) group. Similarly, BMI is categorized, with most patients falling into the 'Healthy weight' and 'Overweight' categories.
 
 3. Bivariate Analysis
-•	You visualized how different factors (e.g., age, gender, hypertension, heart disease, smoking history) correlate with the target variable (diabeteslabel4, relabeled from diabetes).
+•	I  visualized how different factors (e.g., age, gender, hypertension, heart disease, smoking history) correlate with the target variable (diabeteslabel4, relabeled from diabetes).
 •	Several visualizations, including bar plots and count plots with hue, were generated to show relationships between features and diabetes status.
 •	Gender-wise, there were more female patients diagnosed with diabetes, and certain age groups (older adults) were more likely to be diabetic.
 
