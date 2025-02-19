@@ -1,4 +1,5 @@
 # 🏥 Diabetes Prediction Model
+
 ## 📌 Overview
 Stark Health Clinic integrates machine learning to enhance disease detection, optimize resources, and improve patient outcomes. Diabetes poses significant health and financial challenges, and current detection methods lack precision. This project develops a predictive model for early intervention and cost reduction.
 
@@ -10,18 +11,23 @@ Develop a machine learning model to predict diabetes risk, enabling early detect
 ### Data Source
 Patient records including demographics, medical history, lifestyle factors, and lab results.
 
-# Privacy Compliance
+### Privacy Compliance
 Data anonymized to comply with HIPAA and GDPR regulations.
 
-## 🏗️ Methodology
+## Methodology
 
 ## 🔹 Data Preprocessing
-## Loading Data
+
+### Loading Data
 Used pandas.read_csv for data import.
+diabetes_prediction_dataset.csv
+
 ### Feature Engineering
 Selected key predictors for diabetes risk.
+
 ### Normalization
 Scaled continuous features to improve model performance.
+
 ## 🔹 Model Development
 Implemented multiple ML algorithms:
 Decision Trees
@@ -62,11 +68,13 @@ bash
 Copy
 Edit
 pip install pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn
+
 ## ▶️ Run the Model
 bash
 Copy
 Edit
 python diabetes_prediction.py
+
 ### 📜 License
 This project is licensed under the MIT License.
 
